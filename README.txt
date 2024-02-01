@@ -4,7 +4,7 @@ reactions and phase transitions in cavities" (https://doi.org/...)
 
 The files CaF2.txt contains refractive index of CaF2 taken from https://doi.org/10.1016/j.optmat.2017.06.052 
 for w<=900 cm^{-1}, CaF2k.txt and CaF2n.txt contain refractive indices taken from 
-https://doi.org/10.1177/0003702816657 for w>900 cm^{-1}.
+https://doi.org/10.1177/0003702816657568 for w>900 cm^{-1}.
 
 a) The code 'main3.py' with:
     1) flagi = 0,1,2,3,4,5,7,8 and flagT=0 (T=298K) generates 'LzEtot_<flagi>.txt' and 
