@@ -14,10 +14,10 @@ a) The code 'main3.py' with:
        'fig3_X.txt', 'fig3_Y.txt', 'fig3_E_*_<flagi>.txt' and 'fig3_Ts_*_<flagi>.txt'.
        used in Fig. 4b and Fig.S1b.
 
-b) The code 'main4a.py' uses 'LzEtot_1.txt' and 'LzEtot_4.txt' to  generate 'kmol.txt' and 
+b) The code 'main4a.py' uses 'LzEtot_1.txt' and 'LzEtot_4.txt' at 298K to  generate 'kmol.txt' and 
    'kcav.txt' for Fig. 4a
 
-c) The code 'main4b.py' uses 'LzEtot_5.txt' and 'LzEtot_8.txt' to  generate 'Tset_mol_cav.txt' 
+c) The code 'main4b.py' uses 'LzEtot_5.txt' and 'LzEtot_8.txt' at 350K to generate 'Tset_mol_cav.txt' 
    for Fig. 4b
 
 d) The code 'main5a.py' generates 'fig5a.txt' for Fig. 5a
@@ -26,19 +26,19 @@ e) The code 'main5b.py' generates 'fig5b.txt' for Fig. 5b
 f) The code 'plot.py' with:
     1) flagi = 1 generates Fig. 1b
     2) flagi = 3 uses 
-           a) 'LzEtot_5.txt', 'LzEtot_7.txt' and 'LzEtot_8.txt' to generate the Etot plot 
+           a) 'LzEtot_5.txt', 'LzEtot_7.txt' and 'LzEtot_8.txt' at 298K to generate the Etot plot 
               'fig3a.pdf' of Fig. 3a
-           b) 'fig3_E_333_5.txt', 'fig3_X.txt' and 'fig3_Y.txt' to generate the E(k) inset 
+           b) 'fig3_E_333_5.txt', 'fig3_X.txt' and 'fig3_Y.txt' at 298K to generate the E(k) inset 
               plot 'fig3a1.pdf' of Fig. 3a
-           c) 'fig3_Ts_333_5.txt', 'fig3_X.txt' and 'fig3_Y.txt' to generate the T(\theta=0) 
+           c) 'fig3_Ts_333_5.txt', 'fig3_X.txt' and 'fig3_Y.txt' at 298K to generate the T(\theta=0) 
               inset plot 'fig3a2.pdf of Fig. 3a
-           d) 'LzEtot_0.txt', 'LzEtot_2.txt' and 'LzEtot_3.txt' to generate the Etot plot 
+           d) 'LzEtot_0.txt', 'LzEtot_2.txt' and 'LzEtot_3.txt' at 298K to generate the Etot plot 
               'fig3b.pdf' of Fig. 3b 
-           e) 'fig3_E_500_0.txt', 'fig3_X.txt' and 'fig3_Y.txt' to generate the E(k) inset 
+           e) 'fig3_E_500_0.txt', 'fig3_X.txt' and 'fig3_Y.txt' at 298K to generate the E(k) inset 
               plot 'fig3b1.pdf' of Fig. 3b
-           f) 'fig3_Ts_500_0.txt', 'fig3_X.txt' and 'fig3_Y.txt' to generate the T(\theta=0) 
+           f) 'fig3_Ts_500_0.txt', 'fig3_X.txt' and 'fig3_Y.txt' at 298K to generate the T(\theta=0) 
               inset plot 'fig3b2.pdf' of Fig. 3b
-           g) 'LzEtot_1.txt' and 'LzEtot_4.txt' to generate the Etot plot 'figS1a.pdf' of 
+           g) 'LzEtot_1.txt' and 'LzEtot_4.txt' at 298K to generate the Etot plot 'figS1a.pdf' of 
               Fig. S1a
     3) flagi = 4 uses 'kmol.txt' and 'kcav.txt' to generate 'fig4a.pdf' - Fig. 4a
     4) flagi = 5 uses 'Tset_mol_cav.txt' to  generate 'fig4b.pdf' - Fig. 4b
