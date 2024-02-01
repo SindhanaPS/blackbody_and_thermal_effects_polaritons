@@ -3,7 +3,7 @@ import math as m
 import matplotlib.pyplot as plt
 from func import *
 
-flag1 = 1
+flag1 = 0
 flagT = 0
 
 if flagT == 0:
@@ -216,3 +216,15 @@ for Lz in Llist:
    i = i + 1
 
 np.savetxt('LzEtot_'+str(flag1)+'.txt',np.transpose([Llist,Wclist,Etot]))
+
+if flag1 == 0 or flag1 == 5:
+   Wclist = np.array([333,500])
+
+   for wc in Wclist:
+       Lz = ccm/(2*wc*1.43)
+
+       Etot, E, Es, Ep, Rs, Rp, Ts, Tp = Emissivitytot(Lz, L0, wp, f, w0, Gamma, einf, kT, wpM, GammaM, dM, n0, nL, dCaF2, flagAbs, x, theta)
+
+       np.savetxt('fig3_E_'+str(wc)+'_'+str(flag1)+'.txt', E)
+       np.savetxt('fig3_Ts_'+str(wc)+'_'+str(flag1)+'.txt', Ts)
+       

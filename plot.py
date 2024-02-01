@@ -8,7 +8,7 @@ from matplotlib.colors import LogNorm
 from scipy.signal import argrelextrema
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-flagi = 1
+flagi = 7
 
 #####################################################
 #                Importing data                     #
@@ -252,8 +252,13 @@ elif flagi == 3:
    fig1, ax1 = plt.subplots(1)
 
    ax1.plot(wc[0], Etot[1], color = '#91bfdb',linewidth=3, label = 'cavity+molecules')
+   ax2 = ax1.twiny()
+   ax2.plot(wc[0]*0.02998, Etot[4], color = '#fc8d59',linewidth=3)
    ax1.plot(wc[0], Etot[4], color = '#fc8d59', linewidth=3, label = 'molecules')
 
+   ax2.set_zorder(-1)
+
+   ax2.set_xlabel(r'$\omega_{\mathrm{cav}}$ $(\mathrm{in}$ $\mathrm{THz})$',fontsize=20)
    ax1.set_xlabel(r'$\omega_{\mathrm{cav}}$ $(\mathrm{in}$ $\mathrm{cm}^{-1})$', fontsize=20)
    ax1.set_ylabel(r'$\mathrm{Emissivity}$  $\mathcal{E}_{\mathrm{tot}}$', fontsize=20)
    ax1.legend(fontsize=17)
@@ -432,7 +437,8 @@ elif flagi == 7:
    ax1.set_xlabel(r'$\omega_{\mathrm{cav}}$ $(\mathrm{in}$ $\mathrm{cm}^{-1})$', fontsize=20)
    ax1.set_ylabel(r'$\mathrm{Emissivity}$  $\mathcal{E}_{\mathrm{tot}}$', fontsize=20)
    ax1.set_xlim(right=1200)
-   ax1.legend(fontsize=12,loc = 'upper right')
+   ax1.legend(fontsize=17)
+#   ax1.legend(fontsize=12,loc = 'upper right')
 
    plt.savefig('figS1b.pdf', bbox_inches='tight')
    plt.show()
