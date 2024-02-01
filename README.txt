@@ -2,18 +2,17 @@
 Code accompanying manuscript "Blackbody radiation and thermal effects on chemical 
 reactions and phase transitions in cavities" (https://doi.org/...)
 
-The files CaF2.txt contains refractive index of CaF2 taken from ... for w<=900 cm^{-1},
-CaF2k.txt and CaF2n.txt are contain refractive indices taken from ... for w>900 cm^{-1}
+The files CaF2.txt contains refractive index of CaF2 taken from https://doi.org/10.1016/j.optmat.2017.06.052 
+for w<=900 cm^{-1}, CaF2k.txt and CaF2n.txt contain refractive indices taken from 
+https://doi.org/10.1177/0003702816657 for w>900 cm^{-1}.
 
 a) The code 'main3.py' with:
     1) flagi = 0,1,2,3,4,5,7,8 and flagT=0 (T=298K) generates 'LzEtot_<flagi>.txt' and 
        'fig3_X.txt', 'fig3_Y.txt', 'fig3_E_*_<flagi>.txt' and 'fig3_Ts_*_<flagi>.txt'.
-       used in Fig. 3 and 4a
+       used in Fig. 3, Fig. 4a and Fig. S1a.
     1) flagi = 5,8 and flagT=1 (T=350K) generates 'LzEtot_<flagi>.txt' and 
        'fig3_X.txt', 'fig3_Y.txt', 'fig3_E_*_<flagi>.txt' and 'fig3_Ts_*_<flagi>.txt'.
-       used in Fig. 4b
-
-With kT corresponding to T=350K, 'main3.py' generates data for Fig. 4b and Fig. S1b.
+       used in Fig. 4b and Fig.S1b.
 
 b) The code 'main4a.py' uses 'LzEtot_1.txt' and 'LzEtot_4.txt' to  generate 'kmol.txt' and 
    'kcav.txt' for Fig. 4a
