@@ -10,7 +10,7 @@ a) The code 'main3.py' with:
     1) flagi = 0,1,2,3,4,5,7,8 and flagT=0 (T=298K) generates 'LzEtot_<flagi>.txt' and 
        'fig3_X.txt', 'fig3_Y.txt', 'fig3_E_*_<flagi>.txt' and 'fig3_Ts_*_<flagi>.txt'.
        used in Fig. 3, Fig. 4a and Fig. S1a.
-    1) flagi = 5,8 and flagT=1 (T=350K) generates 'LzEtot_<flagi>.txt' and 
+    2) flagi = 5,8 and flagT=1 (T=350K) generates 'LzEtot_<flagi>.txt' and 
        'fig3_X.txt', 'fig3_Y.txt', 'fig3_E_*_<flagi>.txt' and 'fig3_Ts_*_<flagi>.txt'.
        used in Fig. 4b and Fig.S1b.
 
