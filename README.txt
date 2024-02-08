@@ -1,6 +1,6 @@
 ########################################################################################
 Code accompanying manuscript "Blackbody radiation and thermal effects on chemical 
-reactions and phase transitions in cavities" (https://doi.org/...)
+reactions and phase transitions in cavities" (https://doi.org/10.48550/arXiv.2402.01043)
 
 The files CaF2.txt contains refractive index of CaF2 taken from https://doi.org/10.1016/j.optmat.2017.06.052 
 for w<=900 cm^{-1}, CaF2k.txt and CaF2n.txt contain refractive indices taken from 
